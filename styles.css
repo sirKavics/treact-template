@@ -111,6 +111,7 @@ LANDING
 .header__description {
     display: flex;
     flex-direction: column;
+    justify-content: center;;
     width: 40vw;
 }
 
@@ -122,31 +123,37 @@ LANDING
     font-size: 18px;
     margin: 32px 0;
     color: #243E63;
+    line-height: 1.5;
 }
 
-.header__email {
+.input-button-container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     width: 90%;
-    border: 2px solid #243E63;
-    border-radius: 50px;
 }
 
-.header__email--input {
+.email__input {
+    position: absolute;
     border: none;
     font-size: 100%;
-    color: #243E63;
+    padding: 20px 192px 20px 32px;
+    border: 2px solid rgb(226, 232, 240);
+    border-radius: 50px;
+    font-weight: 500;
 }
 
 .header__button {
+    display: flex;
+    position: relative;
     border: none;
     background-color: #6415FF;
     color: #ffffff;
-    padding: 16px 28px;
-    margin: 8px;
+    padding: 16px 36px;
+    margin: 8px 8px 8px 0;
     border-radius: 50px;
     font-size: 16px;
     font-weight: 700;
+    right: 0;
 }
 
 .header__logos {
@@ -163,6 +170,5 @@ LANDING
 }
 
 .header__img {
-    position: ab;
     width: 100%;
 }
