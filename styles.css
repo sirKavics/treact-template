@@ -32,18 +32,16 @@ button {
     margin-bottom: 20px;
 }
 
-.section__heading {
+h2 {
     font-size: 48px;
     font-weight: 900;
     color: #243E63;
 }
 
-.section__description {
-    color: rgb(124 139 161);
-    font-size: 18px;
-    margin-top: 16px;
+p {
+    color: #7C8ba1;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 2;
 }
 
 /*
@@ -56,6 +54,7 @@ NAVIGATION BAR
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     margin-top: 32px;
 }
 
@@ -145,6 +144,7 @@ LANDING
     margin: 32px 0;
     color: #243E63;
     line-height: 1.5;
+    font-weight:400;
 }
 
 .input-button-container {
@@ -159,7 +159,7 @@ LANDING
     border: none;
     font-size: 100%;
     padding: 22px 192px 22px 32px;
-    border: 2px solid rgb(226, 232, 240);
+    border: 2px solid #a0aec0;
     border-radius: 50px;
     font-weight: 500;
 }
@@ -221,45 +221,53 @@ FEATURES
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 80px 0px;
+    padding: 96px 0px;
     margin: 0 92px;
 }
 
 
 .features__description {
     text-align: center;
+    margin: 16px 0 0 0;
     width: 60%;
+    line-height: 1.5;
+    font-size: 18px;
 }
 
-.services__wrapper {
-    width: calc(100% / 3);
-}
-
-.service__container {
+.highlights {
     display: flex;
-    margin: 0 16px;
-    padding: 32px 0;
+    flex-wrap: wrap;
+    width:100%;
+    margin-top:40px;
 }
 
-.img__container {
+.highlight {
+    display: flex;
+    justify-content: center;
+    width: calc(100% / 3);
+    padding: 32px 8px;
+}
+
+.highlight__img {
+    border: 2px solid #a0aec01c;
     padding: 20px;
-    height: 100%;
+    height:68px;
+    border-radius: 50%;
 }
 
-.feature__title {
+.highlight__text--container {
+    width: 60%;
+    margin: 8px 0px 0px 16px
+}
+
+.highlight__title {
     font-size: 24px;
     font-weight: 700;
-    letter-spacing: 1px;
     color: #243E63;
 }
 
-.feature__description {
+.highlight__description {
     color: #7C8ba1;
     font-weight: 500;
-    margin-top: 16px;
-}
-
-.text__container {
-    margin: 8px 0 0 16px;
-    line-height: 2;
+    margin: 16px 0 0 0;
 }
