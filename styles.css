@@ -44,6 +44,23 @@ p {
     line-height: 2;
 }
 
+.section__description {
+    margin: 16px 0 0 0;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.section__button {
+    background-color: #6415FF;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 16px 32px;
+    margin: 32px 0 0;
+}
+
 /*
 
 NAVIGATION BAR
@@ -228,10 +245,7 @@ FEATURES
 
 .features__description {
     text-align: center;
-    margin: 16px 0 0 0;
     width: 60%;
-    line-height: 1.5;
-    font-size: 18px;
 }
 
 .highlights {
@@ -271,3 +285,10 @@ FEATURES
     font-weight: 500;
     margin: 16px 0 0 0;
 }
+
+/*
+
+QUALITY WORK
+
+*/
+
