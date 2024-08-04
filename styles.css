@@ -164,8 +164,8 @@ LANDING
     font-weight:400;
 }
 
-.input-button-container {
-    position: relative;
+.input__button--container {
+    position: absolute;
     display: flex;
     align-items: center;
     width: 90%;
@@ -176,14 +176,23 @@ LANDING
     border: none;
     font-size: 100%;
     padding: 22px 192px 22px 32px;
-    border: 2px solid #a0aec0;
+    border: 2px solid #a0aec04c;
     border-radius: 50px;
     font-weight: 500;
+    transition: all 300ms ease;
+}
+
+.email__input::placeholder {
+    color: #a0aec0d6;
+}
+
+.email__input:hover {
+    border: 2px solid #a0aec0d6;
 }
 
 .header__button {
     display: flex;
-    position: absolute;
+    position: relative;
     border: none;
     background-color: #6415FF;
     color: #ffffff;
@@ -193,7 +202,8 @@ LANDING
     font-size: 16px;
     font-weight: 700;
     transition: all 300ms ease;
-    right: 0
+    right: 100%;
+    transition: all 300ms #a0aec04c;
 }
 
 .header__button:hover {
@@ -205,7 +215,7 @@ LANDING
 }
 
 .header__logos--wrapper {
-    margin-top: 80px;
+    margin-top: 126px;
 }
 
 .customer__logos--description {
@@ -264,7 +274,7 @@ FEATURES
 }
 
 .highlight__img {
-    border: 2px solid #a0aec01c;
+    border: 2px solid #a0aec04c;
     padding: 20px;
     height:68px;
     border-radius: 50%;
