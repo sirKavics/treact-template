@@ -45,8 +45,8 @@ p {
 }
 
 .section__description {
-    margin: 16px 0 0 0;
-    line-height: 1.5;
+    margin: 24px 0 0 0;
+    line-height: 1.6;
     font-size: 18px;
 }
 
@@ -55,9 +55,10 @@ p {
     color: white;
     border: none;
     border-radius: 60px;
+    width: 144px;
     font-size: 14px;
     font-weight: 700;
-    padding: 16px 32px;
+    padding: 14px 32px;
     margin: 32px 0 0;
 }
 
@@ -183,7 +184,7 @@ LANDING
 }
 
 .email__input::placeholder {
-    color: #a0aec0d6;
+    color: #a0aec077;
 }
 
 .email__input:hover {
@@ -250,13 +251,13 @@ FEATURES
     flex-direction: column;
     align-items: center;
     padding: 96px 0px;
-    margin: 0 92px;
+    margin: 0 84px;
 }
 
 
 .features__description {
     text-align: center;
-    width: 60%;
+    width: 55%;
 }
 
 .highlights {
@@ -303,3 +304,34 @@ QUALITY WORK
 
 */
 
+.section__description--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;;
+        width: 50%;
+}
+
+.work__container {
+    display: flex;
+    width: 100%;
+    padding:96px 0;
+}
+
+.quality__heading {
+    width: 60%;
+}
+
+.quality__description {
+    width: 90%;
+}
+
+.quality__img--container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.quality__img {
+    width: 100%;
+    border: 2px solid #a0aec04c;
+}
