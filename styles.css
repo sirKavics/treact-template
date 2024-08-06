@@ -25,13 +25,6 @@ button {
     color: #6415FF;
 }
 
-.section__subheading {
-    color: #6415FF;
-    font-weight: 700;
-    letter-spacing: 2px;
-    margin-bottom: 20px;
-}
-
 h2 {
     font-size: 48px;
     font-weight: 900;
@@ -42,6 +35,13 @@ p {
     color: #7C8ba1;
     font-weight: 500;
     line-height: 2;
+}
+
+.section__subheading {
+    color: #6415FF;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 
 .section__description {
@@ -62,14 +62,15 @@ p {
     margin: 32px 0 0;
 }
 
-.section__description-left--container {
+.section__description--container {
     display: flex;
     flex-direction: column;
     justify-content: center;;
     width: 50%;
+    padding: 32px 0;
 }
 
-.section__img-right--container {
+.section__img--container {
     width: 50%;
     display: flex;
     align-items: center;
@@ -340,4 +341,53 @@ QUALITY WORK
 .quality__img {
     width: 100%;
     border: 2px solid #a0aec04c;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps__img {
+    display: flex;
+    align-items: center;
+    width:100%;
+}
+
+.steps__container {
+    width: 40%;
+    display: flex;
+}
+
+.step__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.step__container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.step__description--container {
+    margin: 0 0 0 24px;
+    width: 55%;
+}
+
+.step__number {
+    font-size: 36px;
+    font-weight: 700;
+    color: #a0aec077;
+}
+
+.step__title {
+    font-size: 20px;
+    color: #243E63;
+    font-weight: 600;
+}
+
+.step__description {
+    font-size: 14px;
+    margin: 12px 0 0 0;
 }
