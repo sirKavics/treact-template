@@ -62,6 +62,25 @@ p {
     margin: 32px 0 0;
 }
 
+.section__description-left--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;;
+    width: 50%;
+}
+
+.section__img-right--container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.section__container {
+    display: flex;
+    width: 100%;
+    padding:96px 0;
+}
+
 /*
 
 NAVIGATION BAR
@@ -304,14 +323,7 @@ QUALITY WORK
 
 */
 
-.section__description--container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;;
-        width: 50%;
-}
-
-.work__container {
+.section__container {
     display: flex;
     width: 100%;
     padding:96px 0;
@@ -323,12 +335,6 @@ QUALITY WORK
 
 .quality__description {
     width: 90%;
-}
-
-.quality__img--container {
-    width: 50%;
-    display: flex;
-    align-items: center;
 }
 
 .quality__img {
