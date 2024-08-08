@@ -397,3 +397,51 @@ STEPS
 VALUES
 
 */
+
+.values__container {
+    display: flex;
+    margin-top: 32px;
+}
+
+.values__title--container {
+    display: flex;
+    align-items: center;
+}
+
+.value__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #243E63;
+    margin-left: 16px;
+}
+
+.value__description {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #7C8ba1;
+    margin-top: 16px;
+}
+
+.affordable__container {
+    margin-right: 32px;
+}
+
+.affordable__img {
+    color: rgb(39, 103, 73);
+    background-color: rgb(154, 230, 180);
+    font-size: 20px;
+    padding: 6px 12px;
+    border-radius: 50px;
+}
+
+.professionalism__img {
+    color: rgb(155, 44, 44);
+    background-color: rgb(254, 178, 178);
+    font-size: 18px;
+    padding: 8px 10px;
+    border-radius: 50px;
+}
+
+.values__button {
+    margin-top: 48px;
+}
