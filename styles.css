@@ -28,6 +28,7 @@ button {
 h2 {
     font-size: 48px;
     font-weight: 900;
+    line-height: 1.5;
     color: #243E63;
 }
 
@@ -86,6 +87,16 @@ p {
     display: flex;
     align-items: center;
     width:100%;
+}
+
+.plan__button {
+    font-size: 14px;
+    font-weight: 700;
+    width: 76%;
+    color: #ffffff;
+    border: none;
+    padding: 16px 32px;
+    border-radius: 50px;
 }
 
 /*
@@ -478,9 +489,38 @@ PRICING
 }
 
 .plan__wrapper {
+    width: calc(100% / 3);
+}
+
+.plan__container {
+    width: 92%;
     border: 1px solid #a0aec04c;
     border-radius: 10px;
-    width: calc(100% / 3);
+    overflow: hidden;
+}
+
+.business__container {
+    background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
+    color: #ffffff;
+}
+
+.styling__personal {
+    height: 8px;
+    background: linear-gradient(115deg, 
+    rgb(56, 178, 172), 
+    rgb(129, 230, 217));
+}
+
+.styling__business {
+    height: 8px;
+    background-color: transparent;
+}
+
+.styling__enterprise {
+    height: 8px;
+    background: linear-gradient(115deg, 
+    rgb(245, 101, 101) 0%, 
+    rgb(254, 178, 178) 100%);
 }
 
 .plan__header {
@@ -536,14 +576,22 @@ PRICING
 }
 
 .personal__button {
-    font-size: 14px;
-    font-weight: 700;
-    width: 64%;
-    color: #ffffff;
-    border: none;
-    padding: 16px 32px;
-    border-radius: 50px;
     background: linear-gradient(115deg, 
     rgb(56, 178, 172), 
     rgb(129, 230, 217));
+}
+
+.business__button {
+    color: #6415FF;
+    background-color: #ffffff;
+}
+
+.enterprise__button {
+    background: linear-gradient(115deg, 
+    rgb(245, 101, 101) 0%, 
+    rgb(254, 178, 178) 100%);
+}
+
+.business {
+    color: #ffffff;
 }
