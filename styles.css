@@ -28,7 +28,6 @@ button {
 h2 {
     font-size: 48px;
     font-weight: 900;
-    line-height: 1.5;
     color: #243E63;
 }
 
@@ -72,7 +71,7 @@ p {
 }
 
 .section__img--container {
-    width: 50%;
+    width: 50vw;
     display: flex;
     align-items: center;
 }
@@ -372,7 +371,7 @@ STEPS
 
 .step__description--container {
     margin: 0 0 0 24px;
-    width: 55%;
+    width: 59%;
 }
 
 .step__number {
@@ -397,6 +396,10 @@ STEPS
 VALUES
 
 */
+
+.values {
+    margin-right: 64px;
+}
 
 .values__container {
     display: flex;
@@ -444,4 +447,22 @@ VALUES
 
 .values__button {
     margin-top: 48px;
+}
+
+/*
+
+PRICING
+
+*/
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.pricing__text {
+    width: 50%;
+    text-align: center;
 }
