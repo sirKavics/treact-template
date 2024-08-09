@@ -730,3 +730,30 @@ FAQS
     text-align: center;
     width: 48%;
 }
+
+.faqs__container--wrapper {
+    margin: 48px 0 0 0;
+    width: 70%;
+}
+
+.faq__container {
+    width: 100%;
+    padding: 16px 40px;
+    margin-top: 20px;
+    background-color: rgb(237 242 247);
+    border-radius: 8px;
+}
+
+.faq__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq__container:hover {
+    background-color: rgb(226 232 240);
+}
+
+.question__container {
+    font-size: 20px;
+    font-weight: 600;
+}
