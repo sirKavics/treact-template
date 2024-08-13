@@ -734,7 +734,8 @@ FAQS
 
 .faqs__container--wrapper {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     margin: 48px 0 0 0;
     width: 100%;
 }
