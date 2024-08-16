@@ -36,6 +36,13 @@ h2 {
     color: #243E63;
 }
 
+h3 {
+    font-size: 30px;
+    color: #f7fafc;
+    width: 40%;
+    line-height: 1.5;
+}
+
 p {
     color: #7C8ba1;
     font-weight: 500;
@@ -778,4 +785,47 @@ FAQS
 
 .tab--open .answer__container {
     display: flex;
+}
+
+/*
+
+GET STARTED
+
+*/
+
+.conclusion__container {
+    width: 100%;
+    background-color: rgb(100 21 255);
+    border-radius: 8px;
+    padding: 80px 0;
+}
+
+.conclusion__description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 27px;
+    padding: 0 32px;
+}
+
+.getstarted__button {
+    margin: 0 32px 0 0;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 40px;
+    font-size: 16px;
+    font-weight: 700;
+    color:#f7fafc;
+    background-color: rgb(245 101 101);
+}
+
+.contact__button {
+    padding: 20px 40px;
+    border: solid 1px #f7fafc;
+    background-color: transparent;
+    color: #f7fafc;
+    font-weight: 700;
+    border-radius: 40px;
+    font-size: 16px;
+    background-color: none;
 }
