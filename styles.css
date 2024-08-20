@@ -768,7 +768,8 @@ FAQS
 
 .question {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
+    line-height: 1.5;
 }
 
 .answer__container {
@@ -793,11 +794,15 @@ GET STARTED
 
 */
 
+.conclusion__wrapper {
+    padding: 96px 0;
+}
+
 .conclusion__container {
     width: 100%;
     background-color: rgb(100 21 255);
     border-radius: 8px;
-    padding: 80px 0;
+    padding: 92px 0;
 }
 
 .conclusion__description {
@@ -839,4 +844,50 @@ GET STARTED
 .contact__button:hover {
     background-color: #f7fafc;
     color: #6415FF;
+}
+
+/*
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #6415FF;
+}
+
+.footer__links--container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__column {
+    margin: 48px 0 0;
+}
+
+.footer__column--title {
+    color: #f7fafc;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0 0;
+}
+
+.footer__list--item {
+    margin: 12px 0 0;
+}
+
+.footer__link {
+    font-size: 14px;
+    padding: 0 0 4px;
+    color: #f7fafc;
+    font-weight: 500;
+}
+
+.footer__divider {
+    margin: 64px 0;
+    margin-bottom: 1px;
+    background-color: transparent;
 }
