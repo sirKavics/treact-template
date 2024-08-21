@@ -887,7 +887,6 @@ footer {
 }
 
 .footer__divider {
+    height: 1px;
     margin: 64px 0;
-    margin-bottom: 1px;
-    background-color: transparent;
 }
