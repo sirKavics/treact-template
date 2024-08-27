@@ -39,7 +39,7 @@ h2 {
 h3 {
     font-size: 30px;
     color: #f7fafc;
-    width: 45%;
+    width: 55%;
     line-height: 1.5;
 }
 
@@ -72,6 +72,11 @@ p {
     padding: 14px 32px;
     margin: 32px 0 0;
     cursor: not-allowed;
+    transition: all 300ms ease;
+}
+
+.section__button:hover {
+    background-color: #5111d2;
 }
 
 .section__description--container {
@@ -108,6 +113,12 @@ p {
     border: none;
     padding: 16px 32px;
     border-radius: 50px;
+    transition: all 300ms ease;
+}
+
+.plan__button:hover {
+    filter: drop-shadow(0px 8px 6px #00000031);
+    position: 10px 10px
 }
 
 .no-cursor {
@@ -776,6 +787,11 @@ FAQS
     line-height: 1.5;
 }
 
+.faq__chevron {
+    display: flex;
+    align-items: center;
+}
+
 .answer__container {
     margin-top: 16px;
     text-align: justify;
@@ -812,8 +828,8 @@ GET STARTED
 .conclusion__description {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    margin: 0 27px;
+    justify-content: space-between;
+    margin: 0 97.5px;
     padding: 0 32px;
 }
 
@@ -822,10 +838,12 @@ GET STARTED
     padding: 20px 40px;
     border: none;
     border-radius: 40px;
+    line-height: 1.5;
     font-size: 16px;
     font-weight: 700;
     color:#f7fafc;
     background-color: rgb(245 101 101);
+    filter: drop-shadow(0px 4px 10px #00000031);
     transition: all 300ms ease;
 }
 
@@ -923,7 +941,7 @@ h5 {
 }
 
 .copyrights {
-    color: #bbbec2;
+    color: #ffffffb9;
 }
 
 .social__links--container {
