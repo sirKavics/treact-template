@@ -730,6 +730,19 @@ blockquote {
     background-color: rgb(226 232 240);
 }
 
+.divider__container {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    height: 24px;
+    width: 1px;
+    background-color: #a0aec0;
+    border: none;
+    opacity: 25%;
+}
+
 /*
 
 FAQS
