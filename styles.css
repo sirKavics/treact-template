@@ -126,6 +126,32 @@ p {
     cursor: not-allowed;
 }
 
+.slide__right {
+    animation: animate-slide-right 650ms ease;
+}
+
+.slide__left {
+    animation: animate-slide-left 650ms ease-in-out;
+}
+
+@keyframes animate-slide-right {
+    0% {
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animate-slide-left {
+    0% {
+        transform: translateX(100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 /*
 
 NAVIGATION BAR
