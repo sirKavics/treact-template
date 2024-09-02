@@ -11,7 +11,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.frame__border {
+.site__border {
     padding: 32px;
 }
 
@@ -169,6 +169,7 @@ NAVIGATION BAR
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 48px;
 }
 
 .logo {
@@ -203,6 +204,7 @@ li {
     padding: 0 0 4px 0;
     font-weight: 600;
     font-size: 14px;
+    line-height: 1;
     color: #243E63;
     transition: all 300ms ease;
     border-bottom: 2px solid #6415FF;
@@ -242,7 +244,6 @@ LANDING
 
 .header__container {
     display: flex;
-    max-width: 1200px;
     padding: 96px 0;
 }
 
@@ -1029,4 +1030,32 @@ h5 {
 
 .last__link {
     margin: 0;
+}
+
+/*
+
+MEDIA
+
+*/
+
+/* MOBILE PHONES */
+
+@media (max-width:576px) {
+
+}
+
+/* 
+TABLETS
+*/
+
+@media (max-width: 768px) {
+
+}
+
+/* 
+DESKTOPS
+*/
+
+@media (max-width: 992px) {
+
 }
