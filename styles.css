@@ -36,7 +36,7 @@ button {
 h2 {
     font-size: 48px;
     font-weight: 900;
-    margin: 16px 0 0;
+    line-height: 1.5;
     color: #243E63;
 }
 
@@ -873,6 +873,7 @@ GET STARTED
 }
 
 .conclusion__container {
+    display: flex;
     width: 100%;
     background-color: rgb(100 21 255);
     border-radius: 12px;
@@ -883,11 +884,10 @@ GET STARTED
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 97.5px;
     padding: 0 32px;
 }
 
-.getstarted__button {
+.get-started__button {
     margin: 0 32px 0 0;
     padding: 20px 40px;
     border: none;
@@ -901,7 +901,7 @@ GET STARTED
     transition: all 300ms ease;
 }
 
-.getstarted__button:hover {
+.get-started__button:hover {
     background-color: rgb(229 62 62);
 }
 
@@ -1135,5 +1135,22 @@ DESKTOPS
 
     .testemonial__img__container {
         width: 40%;
+    }
+
+    .faqs__text {
+        width: 60%;
+    }
+
+    .faq__container--btn {
+        width: 95%;
+    }
+
+    .conclusion__container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    h3 {
+        width: 55%;
     }
 }
