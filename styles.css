@@ -56,7 +56,8 @@ p {
 .section__subheading {
     color: #6415FF;
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1.75px;
+    margin: 0 0 16px;
 }
 
 .section__description {
@@ -131,11 +132,11 @@ p {
 }
 
 .slide__right {
-    animation: animate-slide-right 650ms ease;
+    animation: animate-slide-right 700ms ease;
 }
 
 .slide__left {
-    animation: animate-slide-left 650ms ease;
+    animation: animate-slide-left 700ms ease;
 }
 
 @keyframes animate-slide-right {
@@ -270,7 +271,7 @@ LANDING
     position: absolute;
     display: flex;
     align-items: center;
-    width: 90%;
+    width: 100%;
     
 }
 
@@ -604,12 +605,13 @@ PRICING
 .price {
     font-size: 48px;
     font-weight: 700;
-    margin: 16px 0;
+    margin: 18px 0;
 }
 
 .duration {
     font-size: 16px;
     font-weight: 700;
+    letter-spacing: 1.75px;
     color: #a0aec0;
 }
 
@@ -618,7 +620,7 @@ PRICING
     flex-direction: column;
     align-items: center;
     border-bottom: 2px solid #a0aec04c;
-    padding: 32px;
+    padding: 36px 32px;
 }
 
 .main__feature {
@@ -685,6 +687,7 @@ TESTEMONIALS
 .testemonial__title {
     font-size: 20px;
     font-weight: 700;
+    line-height: 1.5;
     margin-top: 16px;
     color: #243E63;
 }
@@ -766,7 +769,11 @@ blockquote {
 .divider__container {
     display: flex;
     align-items: center;
-    width: 100%;
+}
+
+.divider {
+    width: 4px;
+    color: #a0aec04c;
 }
 
 .footer__divider {
@@ -966,7 +973,10 @@ footer {
 }
 
 .footer__divider {
-    height: 1px;
+    height: 2px;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
     margin: 64px 0;
     opacity: 16%;
 }
@@ -1057,5 +1067,73 @@ DESKTOPS
 */
 
 @media (max-width: 992px) {
+    .header__description {
+        width: 46%;
+    }
 
+    .header__title {
+        font-size: 36px;
+    }
+
+    .header__subtitle {
+        font-size: 16px;
+    }
+
+    .email__input {
+        width: 40vw;
+    }
+
+    .header__img {
+        width: 95%;
+    }
+
+    .header__img--wrapper {
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
+
+    .customer__logos {
+        width: 85%;
+    }
+
+    .features__description {
+        width: 60%;
+    }
+
+    .features__container {
+        margin: 0;
+    }
+
+    .quality__heading {
+        width: 80%;
+    }
+
+    .step__description--container {
+        width: 100%;
+    }
+
+    .value__description {
+        width: 94%;
+    }
+
+    .pricing__text {
+        width: 60%;
+    }
+
+    .plan__button {
+        width: 100%;
+    }
+
+    .section__img--container {
+        width: 50%;
+    }
+
+    .testemonials__wrapper {
+        width: 60%;
+    }
+
+    .testemonial__img__container {
+        width: 40%;
+    }
 }
