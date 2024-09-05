@@ -252,7 +252,7 @@ LANDING
     display: flex;
     flex-direction: column;
     justify-content: center;;
-    width: 40vw;
+    width: 45%;
 }
 
 .header__title {
@@ -335,8 +335,7 @@ LANDING
 }
 
 .header__img--wrapper {
-    width: 60%;
-    position: relative;
+    width: 55%;
 }
 
 .header__img {
@@ -776,14 +775,6 @@ blockquote {
     color: #a0aec04c;
 }
 
-.footer__divider {
-    height: 2px;
-    width: 100%;
-    background-color: #ffffff;
-    border: none;
-    opacity: 100%;
-}
-
 /*
 
 FAQS
@@ -930,7 +921,7 @@ FOOTER
 
 footer {
     background-color: #6415FF;
-    padding: 48px 0 84px 0;
+    padding: 48px 0 48px 0;
     margin-top: 92px;
     width: 100%;
 }
@@ -1048,25 +1039,13 @@ MEDIA
 
 */
 
-/* MOBILE PHONES */
-
-@media (max-width:576px) {
-
-}
-
-/* 
-TABLETS
-*/
-
-@media (max-width: 768px) {
-
-}
-
-/* 
-DESKTOPS
-*/
+/* DESKTOPS */
 
 @media (max-width: 992px) {
+    h3 {
+        width: 55%;
+    }
+
     .header__description {
         width: 46%;
     }
@@ -1145,12 +1124,76 @@ DESKTOPS
         width: 95%;
     }
 
-    .conclusion__container {
+    .get-started__btn--container {
         display: flex;
-        justify-content: space-between;
+    }
+}
+
+/* TABLETS */
+
+@media (max-width: 768px) {
+    .header__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .header__description {
+        width: 75%;
+    }
+    
+    .header__title {
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
     }
 
-    h3 {
-        width: 55%;
+    .header__subtitle {
+        text-align: center;
+        margin: 20px 0;
     }
+
+    .email__input {
+        width: 60%;
+    }
+
+    .customer__logos--description {
+        display: flex;
+        justify-content: center;
+        font-size: 14px;
+    }
+
+    .customer__logos {
+        width: 100%;
+    }
+
+    .header__img--wrapper {
+        width: 75%;
+        margin-top: 46px;
+    }
+
+    .header__img {
+        width: 100%;
+    }
+
+    .features__description {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .highlight {
+        width: calc(100%/2);
+    }
+
+    .highlight__text--container {
+        width: 100%;
+    }
+}
+
+/* 
+MOBILE PHONES 
+*/
+
+@media (max-width:576px) {
+
 }
