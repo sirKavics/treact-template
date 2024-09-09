@@ -270,8 +270,9 @@ LANDING
 .input__button--container {
     position: absolute;
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 60%;
     
 }
 
@@ -1041,7 +1042,7 @@ MEDIA
 
 /* DESKTOPS */
 
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
     h3 {
         width: 55%;
     }
@@ -1131,7 +1132,7 @@ MEDIA
 
 /* TABLETS */
 
-@media (max-width: 768px) {
+@media (max-width: 962px) {
     .header__container {
         display: flex;
         flex-direction: column;
@@ -1139,7 +1140,7 @@ MEDIA
     }
     
     .header__description {
-        width: 75%;
+        width: 60%;
     }
     
     .header__title {
@@ -1154,7 +1155,7 @@ MEDIA
     }
 
     .email__input {
-        width: 60%;
+        width: 48%;
     }
 
     .customer__logos--description {
@@ -1168,7 +1169,7 @@ MEDIA
     }
 
     .header__img--wrapper {
-        width: 75%;
+        width: 60%;
         margin-top: 46px;
     }
 
@@ -1178,15 +1179,108 @@ MEDIA
 
     .features__description {
         font-size: 16px;
-        width: 80%;
+        width: 65%;
+    }
+
+    .highlights {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
 
     .highlight {
-        width: calc(100%/2);
+        width: 45%;
+        margin: 0 16px;
     }
 
     .highlight__text--container {
+        width: 65%;
+    }
+
+    .quality__heading {
+        font-size: 36px;
+        line-height: 1.25;
+    }
+
+    .quality__description {
+        font-size: 16px;
+        width: 90%;
+    }
+
+    h2 {
+        font-size: 48px;
+    }
+
+    .two-column__title {
+        font-size: 36px;
+        margin: 16px 0 0;
+    }
+
+    .section__description--container {
+        padding: 0;
+    }
+
+    .section__description {
+        font-size: 16px;
+    }
+
+    .values__container {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+
+    .steps__container {
+        margin: 0 0 0 56px;
+    }
+
+    .professionalism__container {
+        margin: 40px 0 0;
+    }
+
+    .pricing__text {
+        width: 65%;
+    }
+
+    .plans__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
         width: 100%;
+        margin: 0;
+    }
+
+    .plan__wrapper {
+        display: flex;
+        justify-content: center;
+        width: 48%;
+    }
+
+    .plan__container {
+        margin: 64px 0 0;
+    }
+
+    .section__subheading {
+        margin: 0;
+    }
+
+    .testemonials__wrapper {
+        width: 58%;
+        padding: 0 0 0 48px;
+    }
+
+    .conclusion__description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        width: 70%;
+        text-align: center;
+    }
+
+    .get-started__btn--container {
+        margin: 24px;
     }
 }
 
