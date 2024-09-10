@@ -47,6 +47,10 @@ h3 {
     line-height: 1.5;
 }
 
+.single-column__title {
+    margin: 16px 0 0;
+}
+
 p {
     color: #7C8ba1;
     font-weight: 500;
@@ -270,13 +274,13 @@ LANDING
 .input__button--container {
     position: absolute;
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 60%;
+    justify-content: flex-end;
     
 }
 
 .email__input {
+    position: relative;
     border: none;
     font-size: 100%;
     padding: 22px 192px 22px 32px;
@@ -295,9 +299,9 @@ LANDING
 }
 
 .header__button {
-    display: flex;
-    position: relative;
+    position: absolute;
     border: none;
+    width: 164px;
     background-color: #6415FF;
     color: #ffffff;
     padding: 16px 36px;
@@ -306,7 +310,6 @@ LANDING
     font-size: 16px;
     font-weight: 700;
     transition: all 300ms ease;
-    right: 100%;
     transition: all 300ms #a0aec04c;
     cursor: not-allowed;
 }
@@ -1059,10 +1062,6 @@ MEDIA
         font-size: 16px;
     }
 
-    .email__input {
-        width: 40vw;
-    }
-
     .header__img {
         width: 95%;
     }
@@ -1154,13 +1153,18 @@ MEDIA
         margin: 20px 0;
     }
 
+    .input__button--container {
+        width: 50%;
+        margin: 0 32px;
+    }
+
     .email__input {
-        width: 48%;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .customer__logos--description {
-        display: flex;
-        justify-content: center;
+        text-align: center;
         font-size: 14px;
     }
 
@@ -1200,6 +1204,8 @@ MEDIA
     .quality__heading {
         font-size: 36px;
         line-height: 1.25;
+        width: 90%;
+        margin: 16px 0 0;
     }
 
     .quality__description {
@@ -1272,6 +1278,13 @@ MEDIA
     .conclusion__description {
         display: flex;
         flex-direction: column;
+        width: 100%;
+    }
+
+    .conclusion__container {
+        display: flex;
+        justify-content: center;
+        padding: 68px 0;
     }
 
     h3 {
