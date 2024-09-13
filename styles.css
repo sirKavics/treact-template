@@ -1038,7 +1038,7 @@ h5 {
 
 /*
 
-MEDIA
+MEDIA RESPONSIVENESS
 
 */
 
@@ -1304,11 +1304,7 @@ MEDIA
     }
 }
 
-/*
-
-TABLETS, LARGE SMARTPHONES
-
-*/
+/* TABLETS, LARGE SMARTPHONES */
 
 @media (max-width:768px) {
     .header__container {
@@ -1486,6 +1482,34 @@ TABLETS, LARGE SMARTPHONES
 
     .faqs__text {
         width: 80%;
+    }
+
+    .footer__links--container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .footer__column {
+        width: calc(100% / 3);
+    }
+
+    .footer__copyrights {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h5 {
+        margin: 0;
+    }
+
+    .copyrights {
+        margin: 32px 0 0;
+    }
+
+    .social__links {
+        margin: 32px 0 0;
     }
 }
 
