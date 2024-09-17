@@ -927,6 +927,8 @@ footer {
     padding: 48px 0 48px 0;
     margin-top: 92px;
     width: 100%;
+    position: absolute;
+    left: 0px;
 }
 
 .footer__links--container {
