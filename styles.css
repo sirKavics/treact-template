@@ -249,6 +249,12 @@ li {
     font-size: 24px;
     text-align: center;
     border: none;
+    transition: all 300ms ease;
+    display: none;
+}
+
+.btn__menu:hover {
+    color: #5111d2;
 }
 
 .menu__backdrop {
@@ -264,6 +270,11 @@ li {
     display: flex;
     align-items: center;
     flex-direction: column;
+    display: none;
+}
+
+.menu--open .menu__backdrop {
+    display: flex;
 }
 
 .menu__links {
@@ -284,12 +295,13 @@ li {
     line-height: 1.5;
     border-bottom-style: solid;
     padding-bottom: 8px;
-    border-bottom: transparent;
+    border-bottom: 2px solid #00000000;
     transition: all 300ms ease;
 }
 
 .menu__link:hover {
     border-bottom: 2px solid #6415FF;
+    color: #6415FF;
 }
 
 .btn__sign-up {
@@ -313,9 +325,10 @@ li {
 }
 
 .btn__menu--close {
+    font-size: 28px;
     position: absolute;
-    right: 20px;
-    top: 10px;
+    right: 7px;
+    top: 6px;
     padding: 8px;
     color: #000000;
     transition: all 300ms ease;
@@ -934,7 +947,7 @@ FAQS
     display: none;
 }
 
-.answer {
+.faq__answer {
     font-size: 16px;
     color: #4A5568;
     line-height: 1.5;
@@ -1139,6 +1152,11 @@ MEDIA RESPONSIVENESS
 /* LARGE DESKTOPS */
 
 @media (max-width: 1080px) {
+
+    .btn__menu {
+        display: none;
+    }
+
     h3 {
         width: 55%;
     }
@@ -1225,6 +1243,14 @@ MEDIA RESPONSIVENESS
 /* LAPTOPS AND SMALL DESKTOPS */
 
 @media (max-width: 962px) {
+
+    .btn__menu {
+        display: flex;
+    }
+
+    .nav__links {
+        display: none;
+    }
 
     .header__container {
         display: flex;
