@@ -1516,6 +1516,10 @@ TABLETS, LARGE SMARTPHONES
         padding: 80px 0;
     }
 
+    .highlight__description {
+        width: 252px;
+    }
+
     .section__container {
         display: flex;
         flex-direction: column;
@@ -1547,15 +1551,15 @@ TABLETS, LARGE SMARTPHONES
     }
 
     .quality__heading {
-        width: 86%;
+        width: 452px;
     }
 
     .quality__description {
-        width: 86%;
+        width: 452px;
     }
 
     .two__column--title {
-        width: 86%
+        width: 452px;
     }
 
     .section__img--container {
@@ -1563,9 +1567,13 @@ TABLETS, LARGE SMARTPHONES
         width: 100%;
     }
 
+    .section__img {
+        width: 100%;
+    }
+
     .quality__img {
         margin: 0 auto;
-        width: 65%;
+        width: 448px;
     }
 
     .section__description--container {
@@ -1582,24 +1590,28 @@ TABLETS, LARGE SMARTPHONES
 
     .quality__heading {
         text-align: center;
-        width: 62%;
+        width: 448px;
     }
 
     .quality__description {
-        width: 62%;
+        width: 448px;
         text-align: center;
     }
 
     .section__img {
         margin: 0 auto;
-        width: 64%;
+        width: 448px;
     }
 
     .steps__container {
         display: flex;
         flex-direction: column;
         margin: 0;
-        width: 64%;
+        width: 448px;
+    }
+
+    .two-column__title {
+        width: 448px;
     }
 
     .two-column__title {
@@ -1622,7 +1634,7 @@ TABLETS, LARGE SMARTPHONES
     }
 
     .values {
-        width: 62%;
+        width: 448px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1630,6 +1642,7 @@ TABLETS, LARGE SMARTPHONES
 
     .section__description {
         text-align: center;
+        width: 448px;
     }
 
     .values__container {
@@ -1652,7 +1665,8 @@ TABLETS, LARGE SMARTPHONES
     }
 
     .pricing__text {
-        width: 72%;
+        max-width: 596px;
+        width: 100%;
     }
 
     .plan__container {
@@ -1665,7 +1679,7 @@ TABLETS, LARGE SMARTPHONES
 
     .testemonials__wrapper {
         padding: 0;
-        width: 64%;
+        width: 448px;
     }
 
     .testemonial__rating, .testemonial__title, blockquote {
