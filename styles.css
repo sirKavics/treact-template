@@ -394,6 +394,7 @@ LANDING
 .email__input:hover {
     border: 2px solid #a0aec0d6;
 }
+
 .get-stared__btn--text {
     color: #ffffff;
 }
@@ -778,7 +779,7 @@ TESTEMONIALS
     padding: 0 0 0 64px;
 }
 
-.testemonials__container {
+.testemonial__container {
     margin-top: 48px
 }
 
@@ -1687,7 +1688,15 @@ TABLETS, LARGE SMARTPHONES
     }
 
     .faqs__text {
-        width: 80%;
+        width: 576px;
+    }
+
+    .question {
+        text-align: start;
+    }
+
+    h3 {
+        width: 100%;
     }
 
     .footer__links--container {
@@ -1726,5 +1735,146 @@ MOBILE PHONES
 */
 
 @media (max-width:576px) {
+    
+    .email__input {
+        
+    }
 
+    .email__input::placeholder {
+        font-size: 17px;
+    }
+
+    .input__button--container {
+        width: 100%;
+    }
+    
+    .single-column__title {
+        font-size: 36px;
+    }
+
+    .section__description {
+        width: 100%;
+    }
+
+    .highlight {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .highlight__img {
+        width: 66px;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .highlight__text--container {
+        margin: 16px 0 0;
+        text-align: center;
+    }
+
+    .highlight__description {
+        width: 100%;
+        margin: 4px 0 0;
+    }
+
+    .quality__img {
+        width: 100%;
+    }
+
+    .quality__heading {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .section__img {
+        width: 100%;
+    }
+
+    .steps__container {
+        width: 100%;
+    }
+
+    .two-column__title {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .values {
+        width: 100%;
+    }
+
+    .price {
+        font-size: 36px;
+    }
+
+    .main__feature {
+        text-align: center;
+    }
+
+    .section__description--container {
+        width: 100%;
+    }
+
+    .testemonial__footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile__img {
+        width: 64px;
+        height: 64px;
+    }
+
+    .profile__description {
+        margin: 8px 0 0 0;
+    }
+
+    .arrows__container {
+        margin: 32px 0 0 0;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    .get-started__btn--container {
+        display: flex;
+        flex-direction: column;
+        margin: 24px 0 0;
+    }
+
+    .get-started__button {
+        margin: 0;
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .contact__button {
+        margin: 16px 0 0;
+        padding: 12px 24px;
+        font-size: 14px;
+    }
+
+    .footer__links--container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .copyrights {
+        text-align: center;
+    }
+
+    .footer__copyrights {
+        margin: 0 0 16px;
+    }
 }
