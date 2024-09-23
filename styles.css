@@ -930,7 +930,7 @@ FAQS
     justify-content: space-between;
 }
 
-.question {
+.faq__question {
     font-size: 20px;
     font-weight: 600;
     line-height: 1.5;
@@ -1432,8 +1432,12 @@ LAPTOPS AND SMALL DESKTOPS
         padding: 0 0 0 48px;
     }
 
-    .question {
+    .faq__question {
         font-size: 18px;
+    }
+
+    .faq__answer {
+        text-align: start;
     }
 
     .conclusion__description {
@@ -1688,10 +1692,15 @@ TABLETS, LARGE SMARTPHONES
     }
 
     .faqs__text {
-        width: 576px;
+        max-width: 576px;
+        width: 100%;
     }
 
-    .question {
+    .faq__question {
+        text-align: start;
+    }
+
+    .faq__answer {
         text-align: start;
     }
 
@@ -1735,10 +1744,6 @@ MOBILE PHONES
 */
 
 @media (max-width:576px) {
-    
-    .email__input {
-        
-    }
 
     .email__input::placeholder {
         font-size: 17px;
@@ -1811,6 +1816,10 @@ MOBILE PHONES
         font-size: 36px;
     }
 
+    .feature {
+        text-align: center;
+    }
+    
     .main__feature {
         text-align: center;
     }
@@ -1840,6 +1849,14 @@ MOBILE PHONES
 
     .arrows__container {
         margin: 32px 0 0 0;
+    }
+
+    .faqs__text {
+        width: 100%;
+    }
+
+    .faq__answer {
+        text-align: start;
     }
 
     h3 {
