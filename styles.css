@@ -60,6 +60,10 @@ p {
     line-height: 2;
 }
 
+section {
+    position: relative;
+}
+
 .section__subheading {
     color: #6415FF;
     font-weight: 700;
@@ -457,19 +461,21 @@ FEATURES
     flex-direction: column;
     align-items: center;
     padding: 96px 0px;
-    margin: 0 84px;
+    margin: 0 auto;
+    position: relative;
 }
 
 
 .features__description {
     text-align: center;
-    width: 55%;
+    max-width: 580px;
 }
 
 .highlights {
     display: flex;
     flex-wrap: wrap;
     width:100%;
+    margin: 0 84px;
     margin-top:40px;
 }
 
@@ -502,6 +508,16 @@ FEATURES
     color: #7C8ba1;
     font-weight: 500;
     margin: 16px 0 0 0;
+    width: 100%;
+}
+
+.features__blob {
+    position: absolute;
+    z-index: -1;
+    right: -120px;
+    bottom: -180px;
+    width: 260px;
+    opacity: 0.25;
 }
 
 /*
@@ -517,16 +533,36 @@ QUALITY WORK
 }
 
 .quality__heading {
-    width: 60%;
+    width: 100%;
 }
 
 .quality__description {
     width: 90%;
 }
 
+.quality__img--container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
 .quality__img {
     width: 100%;
     border: 2px solid #a0aec04c;
+    right: 0px;
+    bottom: 0px;
+}
+
+.quality__dotsquare {
+    position: absolute;
+    color: #6415FF;
+    fill: currentColor;
+    width: 80px;
+    right: -32px;
+    bottom: -32px;
+    z-index: -10;
 }
 
 /*
@@ -957,6 +993,24 @@ FAQS
     display: flex;
 }
 
+.faqs__blob-top {
+    position: absolute;
+    width: 260px;
+    right: -176px;
+    top: -40px;
+    color: rgb(79 209 197);
+    opacity: 0.15;
+}
+
+.faqs__blob-bottom {
+    position: absolute;
+    width: 260px;
+    bottom: 0px;
+    left: -180px;
+    color: rgb(100 21 255);
+    opacity: 0.15;
+}
+
 /*
 
 GET STARTED
@@ -1016,6 +1070,8 @@ GET STARTED
     background-color: #f7fafc;
     color: #6415FF;
 }
+
+
 
 /*
 
@@ -1197,7 +1253,7 @@ LARGE DESKTOPS
     }
 
     .features__description {
-        width: 60%;
+        width: 580px;
     }
 
     .features__container {
