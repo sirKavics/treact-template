@@ -276,11 +276,14 @@ li {
   display: flex;
   align-items: center;
   flex-direction: column;
-  display: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 200ms ease;
 }
 
 .menu--open .menu__backdrop {
-  display: flex;
+  visibility: visible;
+  opacity: 1;
   animation: animate-menu-open 400ms ease;
 }
 
@@ -409,6 +412,7 @@ LANDING
   border-radius: 50px;
   font-weight: 500;
   transition: all 300ms ease;
+  width: 100%;
 }
 
 .email__input::placeholder {
@@ -419,7 +423,7 @@ LANDING
   border: 2px solid #a0aec0d6;
 }
 
-.get-stared__btn--text {
+.get-started__btn--text {
   color: #ffffff;
 }
 
@@ -1071,6 +1075,7 @@ GET STARTED
   align-items: center;
   justify-content: space-around;
   padding: 0 32px;
+  z-index: 5;
 }
 
 .get-started__button {
@@ -1312,6 +1317,10 @@ LARGE DESKTOPS
 
   .email__input {
     width: 424px;
+  }
+
+  .email__input::placeholder {
+    width: 100%;
   }
 
   .header__img {
@@ -1618,7 +1627,7 @@ TABLETS, LARGE SMARTPHONES
     position: relative;
     display: flex;
     flex-direction: column;
-    width: 424px;
+    max-width: 424px;
     margin: 0 auto;
   }
 
@@ -1882,8 +1891,14 @@ MOBILE PHONES
 */
 
 @media (max-width: 576px) {
+  
+  .email__input {
+    width: 100%;
+  }
+
   .email__input::placeholder {
     font-size: 17px;
+    width: 278px;
   }
 
   .input__button--container {
